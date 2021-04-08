@@ -85,4 +85,9 @@ public class Vendedores implements Serializable {
 		return "vendedores [codvend=" + codvend + ", dsnome=" + dsnome + ", cdtab=" + cdtab + ", dtnasc=" + dtnasc
 				+ "]";
 	}
+
+	public void setIdtipo(int int1) {
+		// TODO Auto-generated method stub
+		
+	}
 }

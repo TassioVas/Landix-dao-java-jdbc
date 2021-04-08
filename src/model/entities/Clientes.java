@@ -14,7 +14,7 @@ public class Clientes implements Serializable {
 	
 	private Vendedores vendedores;
 		
-	private Clientes() {
+	public Clientes() {
 	}
 
 	public Clientes(Integer cdcl, String dsnome, Integer idtipo, Integer cdvend, Double dslim) {
