@@ -65,6 +65,13 @@ public class Clientes implements Serializable {
 	public void setDslim(Double dslim) {
 		this.dslim = dslim;
 	}
+	public Vendedores getVendedores() {
+		return vendedores;
+	}
+
+	public void setVendedores(Vendedores vendedores) {
+		this.vendedores = vendedores;
+	}
 
 	@Override
 	public int hashCode() {
@@ -96,15 +103,4 @@ public class Clientes implements Serializable {
 		return "Clientes [cdcl=" + cdcl + ", dsnome=" + dsnome + ", idtipo=" + idtipo + ", cdvend=" + cdvend
 				+ ", dslim=" + dslim + "]";
 	}
-
-	public Vendedores getVendedores() {
-		return vendedores;
-	}
-
-	public void setVendedores(Vendedores vendedores) {
-		this.vendedores = vendedores;
-	}
-	
-	
-
 }
